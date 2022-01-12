@@ -21,3 +21,9 @@ console.log(typeof c, typeof d);
 
 // Si deseo hacer una operación entre un número y un string JavaScript lo interpretará como una concatenación
 console.log(c + d); // = 7.195.6
+
+// Convertir un número dentro de un string a un Number con parseInt(variable/número) pero solamente convertirá el entero, en este caso el 5
+console.log(c + parseInt(d));
+
+// Convertir un número dentro de un string a un Number con parseFloat(variable/número) que convertirá el número con sus decimales, 5.6
+console.log(c + parseFloat(d));
