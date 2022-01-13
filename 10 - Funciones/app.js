@@ -1,6 +1,6 @@
 /* Funciones 
         Es un bloque de código autocontenido e independiente del Scope o Ámbito global que se va a definir una sola vez y se va a poder utilizar en cualquier momento.
-        Es un fragmento de código que se declara una vez y puedo reutilizarlo tantasa veces deseé
+        Es un fragmento de código que se declara una vez y puedo reutilizarlo tantas veces deseé.
         
         Una función puede o no recibir parámetros que son datos que recibe separados por comas, y también puede o no devolver valores
         
