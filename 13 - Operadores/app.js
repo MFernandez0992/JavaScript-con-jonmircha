@@ -56,4 +56,5 @@ console.log(!true); // Retorna false
 console.log((9 === 9) || ('9' === 9)); // Retorna true ya que una de las condiciones es verdadera
 
 // && - And: Todas las condiciones tienen que ser true para que se cumpla
+console.log((9 === 9) && ('10' === 10)); // Retorna false xq '10' no es igual a 10
 console.log();
