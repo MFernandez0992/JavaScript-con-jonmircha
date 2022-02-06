@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Módulos en JavaScript</title>
+</head>
+<body>
+    <h1>Módulos en JavaScript</h1>
+
+
+    <!-- Para que el archivo JS tenga la capacidad de mandar a llamar internamente otros archivos .js es muy importante que a la etiqueta script se le agregué el atributo "type="module" -->
+    <script src="js/modulos.js" type="module"></script>
+
+    <!-- Para navegadores viejos como IE que no soporten módulos ECSMASCript, se debe utilizar de la siguiente forma, con el atributo nomodule se detecta si el navegador soporta o no +ES6 para no tener que cargar dos veces el mismo código -->
+    <script src="js/no-modulos.js" nomodule></script>
+</body>
+</html>
