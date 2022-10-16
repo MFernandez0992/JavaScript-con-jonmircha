@@ -28,7 +28,7 @@ console.log(colores);
 colores.pop(); // Elimina el último elemento
 console.log(colores);
 
-// Ejecutar una función por cada elemento del array con .foeEach(), dentro de los parámetros se coloca el elemento que irá iterando el array y si deseo el indice lo agrego separados por coma.a
+// Ejecutar una función por cada elemento del array con .forEach(), dentro de los parámetros se coloca el elemento que irá iterando el array y si deseo el indice lo agrego separados por coma.a
 colores.forEach(function(el, index) {
     console.log(`<li id="${index}">${el}</li>`);
 })

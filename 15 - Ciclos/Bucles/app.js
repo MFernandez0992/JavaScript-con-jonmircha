@@ -28,7 +28,7 @@ for (let i = 0; i < numeros.length; i++) {
     
 }
 
-/* For in - Es un ciclo que me permite recorrer las propiedades de un objeto*/
+/* For in - Es un ciclo que me permite recorrer las propiedades de un objeto */
 
 const matias = {
     nombre: 'Matías',

@@ -30,7 +30,7 @@ function unaFuncionQueDevuelveUnValor(){
     console.log('devuelto');
     console.log('es el de abajo');
 
-    return 'Devuelve esté resultado';
+    return 'Devuelve este resultado';
 }
 
 let resultDevuelto = unaFuncionQueDevuelveUnValor();
